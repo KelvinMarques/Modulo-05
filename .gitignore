@@ -2,7 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
-__pycache__/multiplo.cpython-37.pyc
+git__pycache__/multiplo.cpython-37.pyc
 # C extensions
 *.so
 
