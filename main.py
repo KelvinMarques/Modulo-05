@@ -1,16 +1,17 @@
+from multiplo import multiplo
 
-import multiplo
-
-aux = 1
-while(aux == 1):
-
+AUX = 1
+while AUX == 1:
+    """
+    Brasil
+    """
     numero = int(input("Digite um numero natural: "))
 
     if numero < 0:
         print("Numero negativo não é permitido")
     else:
-        saida = multiplo(numero)
-        aux = int(input("\n0 para sair | 1 para novo numero"))
+        SAIDA = multiplo(numero)
+        AUX = int(input("\n0 para sair | 1 para novo numero"))
 
-print("\nUltima palavra que foi chamada: ", saida)
+print("\nUltima palavra que foi chamada: ", SAIDA)
 print("\nPrograma Multiplo finalizado")

@@ -1,13 +1,21 @@
-import pytest
-
+"""
+Arquivo com tudo
+"""
 import multiplo
 
-class testenumero:
+class TesteNumero:
+    """
+    Classe de teste do numero
+    """
     def setup(self):
-        pass
+        """
+        Função de setup
+        """
 
     def test_multplo(self):
+        """
+        Função para testar o multiplo
+        """
         resultado1 =  multiplo(10)
         print(resultado1)
-        
         assert resultado1 == "Fizz"

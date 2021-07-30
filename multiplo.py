@@ -1,15 +1,15 @@
-
-
-def multiplo(n1):
+def multiplo(numero1):
+    """
+    Função pra multiplicar
+    """
     palavra = ""
-    if n1 % 5 == 0 and  n1 % 7 != 0:
+    if numero1 % 5 == 0 and  numero1 % 7 != 0:
         palavra = "Fizz"
         print("Fizz")
-    elif n1 % 7 == 0 and  n1 % 5 != 0:
+    elif numero1 % 7 == 0 and  numero1 % 5 != 0:
         palavra = "buzz"
         print("buzz")
-    elif  n1 % 5 == 0 and  n1 % 7 == 0:
+    elif  numero1 % 5 == 0 and  numero1 % 7 == 0:
         print("Fizzbuzz")
         palavra = "Fizzbuzz"
     return palavra
-
