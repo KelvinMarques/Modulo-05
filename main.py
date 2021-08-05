@@ -3,7 +3,7 @@ from multiplo import multiplo
 AUX = 1
 while AUX == 1:
     """
-    Brasil
+    Entrada dos dados e execução do main
     """
     numero = int(input("Digite um numero natural: "))
 
